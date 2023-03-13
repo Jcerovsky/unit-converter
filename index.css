@@ -1,0 +1,82 @@
+body {
+    margin: 0;
+    text-align: center;
+    background-color: antiquewhite;
+}
+
+
+.hero-section {
+    background-color: cornflowerblue;
+    margin: 5px 5px;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+    padding: 10px;
+
+}
+
+h1 {
+    font-size: 25px;
+    color: whitesmoke;
+    font-weight: boldl
+}
+
+input {
+    text-align: center;
+    width: 60px;
+    height: 40px;
+    padding: 10px;
+    background-color: cornflowerblue;
+    border: solid 1px white;
+    border-radius: 5px;
+    color: white;
+    font-size: 20px;
+    
+}
+
+button {
+    display: block;
+    margin: 15px auto;
+    background-color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    color: #121212;
+    font-size: 15px;
+    
+}
+
+#convert:hover {
+    background-color: whitesmoke;
+    font-weight: 900;
+}
+
+.unit {
+    width: 90%;
+    height: 100px;
+    background-color: lightblue;
+    margin: 15px auto;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+
+.unit:hover {
+    background-color: skyblue;
+}
+
+h3, h4 {
+    margin: 5px;
+    color: navy;
+}
+
+h4 {
+    opacity: 50%;
+    font-size: 12px;
+}
+
+
+p {
+    font-weight: 900;
+}
